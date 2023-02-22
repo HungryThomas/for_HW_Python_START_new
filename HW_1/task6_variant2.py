@@ -1,15 +1,15 @@
 n = int(input('Введите случайное положительное целое шестизначное число: '))
-LastThree = 0
+lastthree = 0
 while n>=1000:
     digit = n%10
-    LastThree+=digit
+    lastthree+=digit
     n//=10
-FirstThree = 0
+firstthree = 0
 while n>0:
     digit = n%10
-    FirstThree+=digit
+    firstthree+=digit
     n//=10
-if LastThree == FirstThree:
+if lastthree == firstthree:
     print('Yes, lucky!')
 else:
     print('No, unlucky!')
