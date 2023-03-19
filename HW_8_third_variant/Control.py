@@ -1,0 +1,3 @@
+import thirdphonebook
+
+thirdphonebook.main()
